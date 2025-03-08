@@ -1,0 +1,24 @@
+project_folder/
+├── app.py                 # Point d'entrée principal de l'application
+├── config.py              # Configuration de l'application
+├── database/
+│   ├── __init__.py
+│   ├── db_setup.py        # Script pour initialiser la base de données
+│   └── models.py          # Définition des modèles de données
+├── static/
+│   ├── css/
+│   │   └── style.css      # Feuille de style principale
+│   ├── js/
+│   │   ├── admin.js       # JavaScript pour la page admin
+│   │   ├── login.js       # JavaScript pour la page de login
+│   │   └── user.js        # JavaScript pour la page utilisateur
+│   └── uploads/           # Dossier où seront stockés les fichiers partagés
+├── templates/
+│   ├── admin.html         # Page d'administration
+│   ├── base.html          # Template de base
+│   ├── login.html         # Page de connexion
+│   └── user.html          # Page utilisateur standard
+└── utils/
+    ├── __init__.py
+    ├── auth.py            # Fonctions d'authentification
+    └── file_handler.py    # Gestion des opérations sur les fichiers
